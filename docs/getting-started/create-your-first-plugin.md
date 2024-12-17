@@ -93,7 +93,8 @@ A plugin is also a Node.js package, which you can configure in the `package.json
 1. Change `name` to match the `id` in `manifest.json`.
 1. Change `version` to match the `version` in `manifest.json`.
 1. Change `description` to match the `description` in `manifest.json`.
-1. Restart Obsidian to reload your plugin.
+1. Reload the Obsidian plugins.
+   
 
 ## Step 5 — Update the source code
 
@@ -113,7 +114,7 @@ In this step, you'll make a change to the source code and reload the plugin to r
    new Notice('Hello, you!');
    ```
 
-1. Restart Obsidian to reload your plugin.
+1. Reload the Obsidian plugins.
 1. Click the die icon in the sidebar. Make sure it says "Sample Plugin" when you hover it.
 
 ## Next steps
